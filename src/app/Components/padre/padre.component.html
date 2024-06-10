@@ -1,0 +1,15 @@
+<div class="container">
+  <app-hijo [show]="show" [imageUrl]="imageUrl" (toggleImage)="toggleImageHandler($event)"></app-hijo>  
+  <audio #reviveAudio src='./assets/AGUMON.mp3' preload="eager"></audio>
+  <audio #killAudio src='./assets/OOF.mp3' preload="eager"></audio>
+    <div class="button-container">
+      <button (click)="showImage()" class="revivir-button">Revivir</button>
+      <button (click)="showFeed()" class="alimentar-button">Alimentar</button>
+      <button (click)="showHappy()" class="felicitar-button">Felicitar</button>
+      <button (click)="showTraining()" class="entrenar-button">Entrenar</button>
+      <button (click)="showDance()" class="bailar-button">Bailar</button>
+      <button (click)="showLove()" class="mimar-button">Mimar</button>
+      <button (click)="hideImage()" class="matar-button">Matar</button>
+      </div>
+  </div>
+

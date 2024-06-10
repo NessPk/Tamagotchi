@@ -1,0 +1,57 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    border: 5px;
+    border-color: orangered;
+    border-radius:50% ;
+  }
+
+  
+  .revivir-button {
+    background-color: #00FF00;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  .alimentar-button {
+    background-color: #FFFF00;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  .felicitar-button {
+    background-color: #FF00FF;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  .entrenar-button {
+    background-color: #0000FF;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  .bailar-button {
+    background-color: #FF69B4;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  .mimar-button {
+    background-color: #FFC0CB;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  .matar-button {
+    background-color: #FF0000;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
